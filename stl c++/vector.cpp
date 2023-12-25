@@ -21,7 +21,7 @@ int main() {
     //erase function ------------------------------------------------
     // v.erase(v.begin()+1);
     // v.erase(v.begin()+1,v.begin()+3);      //O(n)
-    // v.erase(v.begin()+1,v.end()-2);
+    // v.erase(v.begin()+1,v.end()-2);            // not include the last
     
     //insert function --------------------------------------------------
     // v.insert(v.begin(),455);
@@ -37,7 +37,7 @@ int main() {
     
     cout<<v.empty()<<endl;   // return in boolean     //O(1)
     
-    v.clear();        // remove all elements            //O(1)
+    // v.clear();        // remove all elements            //O(1)
     cout<<v.size()<<endl;
     
     // for(vector<int>::iterator it = v.begin();it!=v.end();it++)
